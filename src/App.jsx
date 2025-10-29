@@ -50,7 +50,7 @@ function App() {
                   </header>
 
                   {trendingMovies.length > 0 && (
-                    <section className="trending">
+                    <section className="trending pt-[60px]">
                       <h2>Trending Movies</h2>
 
                       <ul>

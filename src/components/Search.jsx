@@ -20,7 +20,7 @@ const Search = ({ search, setSearch }) => {
           placeholder="Search through thousands of movies..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          className="flex-grow py-2 text-white bg-dark-200 border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+          className="flex-grow py-2 text-white bg-dark-200 border-none rounded-lg"
         />
 
         <button
