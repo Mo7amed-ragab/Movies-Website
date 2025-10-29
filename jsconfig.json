@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/ui/*": ["src/shared/ui/*"],
+      "@/lib/*": ["src/shared/lib/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
